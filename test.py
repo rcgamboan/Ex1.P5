@@ -1,12 +1,15 @@
+#Pregunta 5 Parcial 1 CI3641
+#Elaborado por Roberto Gamboa 16-10394
+
+# Programa para realizar pruebas sobre las funciones definidas en main.py y clases.py
+
 import unittest
 from main import definir_interprete, definir_programa, definir_traductor, ejecutable
 
 # para ejecutar las pruebas y calcular la cobertura ejecutar el siguiente comando:
 # coverage run -m unittest test.py
-# Luego se puede acceder al reporte de la cobertura con el comando
+# Luego se puede acceder al reporte de cobertura con el comando
 # coverage report
-# En el reporte de cobertura se evidencia que la misma es menor al 80%
-# Esto se debe a que no se realizan pruebas sobre la funcion imprimir
 
 
 class Test(unittest.TestCase):

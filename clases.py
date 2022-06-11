@@ -1,3 +1,7 @@
+#Pregunta 5 Parcial 1 CI3641
+#Elaborado por Roberto Gamboa 16-10394
+
+# Creacion de las clases que se usaran en main.py
 
 class Interprete(object):
 
@@ -5,8 +9,6 @@ class Interprete(object):
         self.lenguajeBase = base
         self.lenguajeInterpretado = lenguaje
         
-    
-
 class Programa(object):
 
     def __init__(self,nombre,lenguaje):
